@@ -1,0 +1,38 @@
+body{
+    background-color: #1F2937;
+}
+header,
+.header{
+    color: white;
+    display: flex;
+}
+
+header{
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+}
+
+span{
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+ 
+li{
+    color: gray;
+    font-size: 12px;
+}
+
+.container{
+    flex: 1;
+}
+
+img{
+    height: auto;
+    width: 400px;
+}
